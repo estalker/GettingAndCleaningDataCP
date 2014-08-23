@@ -41,12 +41,12 @@ colnames(merged)[2]<-"activity"
 
 merged<-merged[,c(2:564)]
 
-mean_std <- features[grepl('mean',features$V2) | grepl('std',features$V2),]
+mean_std <- features[(grepl('mean',features$V2) | grepl('std',features$V2)) & !grepl('meanfreq',features$V2) & !grepl('angle',features$V2),]
 
 cutted<-merged[,c("activity","subject", as.character(mean_std[,2]))]
 
 aggreg<-aggregate(cutted, by=list(cutted$subject,cutted$activity), FUN=mean)
-aggreg<-aggreg[,c(1,2,5:88)]
+aggreg<-aggreg[,c(1,2,5:70)]
 colnames(aggreg)[1]<-"subject"
 colnames(aggreg)[2]<-"activity"
 

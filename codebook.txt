@@ -1,1 +1,70 @@
-?
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually.
+
+subject  — An identifier of the subject who carried out the experiment.
+activity — Activity name (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+tbodyaccmean()x - Avarage for mean values of body acceleration signals time domain signal (X direction)
+tbodyaccmean()y - Avarage for mean values of body acceleration signals time domain signal (Y direction)
+tbodyaccmean()z - Avarage for mean values of body acceleration signals time domain signal (Z direction)
+tbodyaccstd()x - Avarage for standard deviation of body acceleration signals time domain signal (X direction)
+tbodyaccstd()y - Avarage for standard deviation of body acceleration signals time domain signal (Y direction)
+tbodyaccstd()z - Avarage for standard deviation of body acceleration signals time domain signal (Z direction)
+tgravityaccmean()x - Avarage for mean values of gravity acceleration signals time domain signal (X direction)
+tgravityaccmean()y - Avarage for mean values of gravity acceleration signals time domain signal (Y direction)
+tgravityaccmean()z - Avarage for mean values of gravity acceleration signals time domain signal (Z direction)
+tgravityaccstd()x - Avarage for standard deviation of gravity acceleration signals time domain signal (X direction)
+tgravityaccstd()y - Avarage for standard deviation of gravity acceleration signals time domain signal (Y direction)
+tgravityaccstd()z - Avarage for standard deviation of gravity acceleration signals time domain signal (Z direction)
+tbodyaccjerkmean()x - Avarage for mean values of body linear acceleration jerk signal (X direction)
+tbodyaccjerkmean()y - Avarage for mean values of body linear acceleration jerk signal (Y direction)
+tbodyaccjerkmean()z - Avarage for mean values of body linear acceleration jerk signal (Z direction)
+tbodyaccjerkstd()x - Avarage for standard deviation of body linear acceleration jerk signal (X direction)
+tbodyaccjerkstd()y - Avarage for standard deviation of body linear acceleration jerk signal (Y direction)
+tbodyaccjerkstd()z - Avarage for standard deviation of body linear acceleration jerk signal (Z direction)
+tbodygyromean()x - Avarage for mean values of angular velocity signal (X direction)
+tbodygyromean()y - Avarage for mean values of angular velocity signal (Y direction)
+tbodygyromean()z - Avarage for mean values of angular velocity signal (Z direction)
+tbodygyrostd()x - Avarage for standard deviation of angular velocity signal (X direction)
+tbodygyrostd()y - Avarage for standard deviation of angular velocity signal (Y direction)
+tbodygyrostd()z - Avarage for standard deviation of angular velocity signal (Z direction)
+tbodygyrojerkmean()x - Avarage for mean values of angular velocity jerk signal (X direction)
+tbodygyrojerkmean()y - Avarage for mean values of angular velocity jerk signal (Y direction)
+tbodygyrojerkmean()z - Avarage for mean values of angular velocity jerk signal (Z direction)
+tbodygyrojerkstd()x — Avarage for standard deviation of angular velocity jerk signal (X direction)
+tbodygyrojerkstd()y — Avarage for standard deviation of angular velocity jerk signal (Y direction)
+tbodygyrojerkstd()z — Avarage for standard deviation of angular velocity jerk signal (Z direction)
+tbodyaccmagmean() - Avarage for standard deviation of magnitude of body acceleration signals calculated using the Euclidean norm
+tbodyaccmagstd() - Avarage for standard deviation of magnitude of body acceleration signals calculated using the Euclidean norm
+tgravityaccmagmean() - Avarage for mean values of magnitude of gravity acceleration signals calculated using the Euclidean norm
+tgravityaccmagstd() - Avarage for standard deviation of magnitude of gravity acceleration signals calculated using the Euclidean norm
+tbodyaccjerkmagmean() - Avarage for mean values of magnitude body of linear acceleration jerk signal calculated using the Euclidean norm
+tbodyaccjerkmagstd() - Avarage for standard deviation of magnitude of body linear acceleration jerk signal calculated using the Euclidean norm
+tbodygyromagmean() — Avarage for mean values of magnitude of angular velocity signal calculated using the Euclidean norm
+tbodygyromagstd() — Avarage for mean values of magnitude of angular velocity signal calculated using the Euclidean norm
+tbodygyrojerkmagmean() — Avarage for mean values of magnitude of angular velocity jerk signal calculated using the Euclidean norm
+tbodygyrojerkmagstd() — Avarage for standard deviation of magnitude of angular velocity jerk signal calculated using the Euclidean norm
+fbodyaccmean()x - Avarage for mean values of body acceleration signals frequency domain signal applied Fast Fourier Transform (X direction)
+fbodyaccmean()y - Avarage for mean values of body acceleration signals frequency domain signal applied Fast Fourier Transform (Y direction)
+fbodyaccmean()z - Avarage for mean values of body acceleration signals frequency domain signal applied Fast Fourier Transform (Z direction)
+fbodyaccstd()x — Avarage for standard deviation of body acceleration signals frequency domain signal applied Fast Fourier Transform (X direction)
+fbodyaccstd()y — Avarage for standard deviation of body acceleration signals frequency domain signal applied Fast Fourier Transform (Y direction)
+fbodyaccstd()z — Avarage for standard deviation of body acceleration signals frequency domain signal applied Fast Fourier Transform (Z direction)
+fbodyaccjerkmean()x - Avarage for mean values of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform (X direction)
+fbodyaccjerkmean()y - Avarage for mean values of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform (Y direction)
+fbodyaccjerkmean()z - Avarage for mean values of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform (Z direction)
+fbodyaccjerkstd()x - Avarage for standard deviation of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform (X direction)
+fbodyaccjerkstd()y - Avarage for standard deviation of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform (Y direction)
+fbodyaccjerkstd()z - Avarage for standard deviation of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform (Z direction)
+fbodygyromean()x - Avarage for mean values of angular velocity signal applied Fast Fourier Transform  (X direction)
+fbodygyromean()y - Avarage for mean values of angular velocity signal applied Fast Fourier Transform  (Y direction)
+fbodygyromean()z - Avarage for mean values of angular velocity signal applied Fast Fourier Transform  (Z direction)
+fbodygyrostd()x - Avarage for standard deviation of angular velocity signal applied Fast Fourier Transform  (X direction)
+fbodygyrostd()y - Avarage for standard deviation of angular velocity signal applied Fast Fourier Transform  (Y direction)
+fbodygyrostd()z - Avarage for standard deviation of angular velocity signal applied Fast Fourier Transform  (Z direction)
+fbodyaccmagmean() - Avarage for mean values of magnitude of body acceleration  frequency domain signals calculated using the Euclidean norm
+fbodyaccmagstd() - Avarage for standard deviation of magnitude of body acceleration  frequency domain signals calculated using the Euclidean norm
+fbodybodyaccjerkmagmean() - Avarage for mean values of magnitude of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform
+fbodybodyaccjerkmagstd() - Avarage for standard deviation of magnitude of body linear acceleration jerk frequency domain signal applied Fast Fourier Transform
+fbodybodygyromagmean() - Avarage for mean values of magnitude of angular velocity frequency domain  signal applied Fast Fourier Transform
+fbodybodygyromagstd() - Avarage for standard deviation of magnitude of angular velocity frequency domain  signal applied Fast Fourier Transform
+fbodybodygyrojerkmagmean() — Avarage for mean values of magnitude of angular velocity jerk frequency domain signal applied Fast Fourier Transform
+fbodybodygyrojerkmagstd() — Avarage for mean values of magnitude of angular velocity jerk frequency domain signal applied Fast Fourier Transform
